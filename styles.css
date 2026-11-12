@@ -100,6 +100,7 @@ main>section.section-pad{position:relative;border-top:0}
 main>section.section-pad::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,var(--clay) 0 26px,var(--teal) 26px 70px,var(--line) 126px,var(--line) 100%)}
 .architecture-map{grid-template-columns:minmax(0,1fr)}
 .architecture-map .arch-flow{width:min(100%,760px);margin-inline:auto}
+.architecture-foot>span:last-child{justify-self:end;text-align:right}
 
 /* A restrained, multi-color system for a more distinctive editorial finish. */
 :root{--clay:#a9543c;--teal:#386b66;--blue:#506e91;--olive:#788154;--gold:#b1813f;--plum:#79627c}
