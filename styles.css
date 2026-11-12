@@ -112,6 +112,9 @@ main>section.section-pad::before{content:"";position:absolute;top:0;left:0;right
 .project-visual:hover>img{transform:scale(1.025)}
 .solo-visual:hover .homepage-preview,.qaba-visual:hover .homepage-preview{transform:scale(1.025)}
 @media(hover:none){.project-visual:hover>img,.solo-visual:hover .homepage-preview,.qaba-visual:hover .homepage-preview{transform:none}}
+.eob-visual>img{object-fit:cover;object-position:54% top;transform:scale(1.24);transform-origin:54% top}
+@media(max-width:650px){.eob-visual>img{object-position:57% top;transform:scale(1.42);transform-origin:57% top}}
+@media(hover:none){.eob-visual:hover>img{transform:scale(1.42)}}
 
 /* A restrained, multi-color system for a more distinctive editorial finish. */
 :root{--clay:#a9543c;--teal:#386b66;--blue:#506e91;--olive:#788154;--gold:#b1813f;--plum:#79627c}
