@@ -96,6 +96,8 @@ h1{line-height:1.04}.hero h1 em,h2 em{color:var(--blue)}
 .core-mark{display:grid;place-items:center}
 .core-mark .core-mark-label{display:inline-block;color:inherit;line-height:1;white-space:nowrap}
 .core-mark .core-mark-label span{color:var(--clay)}
+main>section.section-pad{position:relative;border-top:0}
+main>section.section-pad::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,var(--clay) 0 26px,var(--teal) 26px 70px,var(--line) 126px,var(--line) 100%)}
 
 /* A restrained, multi-color system for a more distinctive editorial finish. */
 :root{--clay:#a9543c;--teal:#386b66;--blue:#506e91;--olive:#788154;--gold:#b1813f;--plum:#79627c}
